@@ -47,7 +47,7 @@ const Contact = () => {
              <span className="font-weight-bold">t.</span> 028 6772 1046<br />
              <span className="font-weight-bold">m.</span> 07792 304 731<br />
              <span className="font-weight-bold">m.</span> 00353 (0) 863 086 381<br />
-             <span className="font-weight-bold">e.</span> ainewilson12@hotmail.com
+             <span className="font-weight-bold">e.</span> <a href="mailto:ainewilson12@hotmail.com">ainewilson12@hotmail.com</a>
            </p>
         </div>
       </div>

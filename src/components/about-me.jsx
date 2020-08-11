@@ -12,14 +12,14 @@ const AboutMe = ({ onClick }) => {
       <p>Nexus NI in Enniskillen which supports Adult Survivors of Sexual Abuse</p>
       <p>Action Mental Health New Horizons Enniskillen where I developed and facilitated the Impact of Alcohol Programme called the Time Out Programme which is Accredited with 10CPD points from the A.C.I. along with doing one to one support with service users.  I also facilitated a Women’s group there which proved life changing for many of the group members.</p>
       <p>Aisling Centre Enniskillen where I worked as an outreach counsellor for the Probation Service of NI.  Doing one to one counselling in the centre and facilitating the Journeying Together Family Support Group every two weeks for family members of all addictions.</p>
-      <p>I facilitated my Education / Family Programme in several locations in Co. Fermanagh and surrounding counties</p>
+      <p>Facilitated my Education / Family Programme in several locations in Co. Fermanagh and surrounding counties</p>
       <p>In 2013 I returned home after working three years in Derry City in the Y.A.R.D. Project as the project counsellor and in White Oaks Rehabilitation Centre in Donegal supporting residents through their 30 day programme.</p>
-      <p>I also developed and facilitated a one day <a href="/" data-testid="about-me--family-programme" onClick={ onClick } data-name="family-programme" >Education/Family programme</a> for the family, friends, people who live, work or have lived with people who use or abuse alcohol, drugs or and gambling that I ran on a regular basis in Columba House, Queen St, Derry and this year out of White Oaks Rehabilitation Centre. This programme is accredited with 6 CPD points from the A.C.I. </p>
-      <p>I also completed a one year clinical placement with Nexus Institute Derry where I counselled adult survivors of sexual abuse.</p>
+      <p>Developed and facilitated a one day <a href="/" data-testid="about-me--family-programme" onClick={ onClick } data-name="family-programme" >Education/Family programme</a> for the family, friends, people who live, work or have lived with people who use or abuse alcohol, drugs or and gambling that I ran on a regular basis in Columba House, Queen St, Derry and this year out of White Oaks Rehabilitation Centre. This programme is accredited with 6 CPD points from the A.C.I. </p>
+      <p>Completed a one year clinical placement with Nexus NI Derry where I counselled adult survivors of sexual abuse.</p>
       <p>During my training I spent nine months working in Aiseiri Treatment Centre in Wexford.</p>
-      <p>I co-facilitated pre-marriage courses for three years with Accord in Enniskillen. </p>
-      <p>I am also an Al-Anon Family Group member for over twenty Years.</p>
-      <p>I have professional liability insurance.</p>
+      <p>Co-facilitated pre-marriage courses for three years with Accord in Enniskillen. </p>
+      <p>Al-Anon Family Group member for over twenty Years.</p>
+      <p>I have Professional liability insurance.</p>
     </>
   );
 }

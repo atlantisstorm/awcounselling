@@ -15,7 +15,7 @@ const App = () => {
       <Navigation onClick={onClickSelectPage} selectedPage={selectedPage} />
       <div className="row">
         <div className="col-12 p-2">
-          <img className="img-fluid mx-auto d-block" src="/images/flowers-butterfly-with-quote.jpg" alt="Mayo Angelo" width="627" height="939" />
+          <img className="img-fluid mx-auto d-block" src="/images/flowers-butterfly-with-quote-v2.jpg" alt="Mayo Angelo" />
         </div>
       </div>
       <div className="row">

@@ -10,20 +10,20 @@ const Contact = () => {
           <form method="" action="">
             <div className="form-row mb-3">
               <div className="col">
-                <input type="text" className="form-control" placeholder="First name" name="first-name" />
+                <input type="text" className="form-control" data-testid="form-firstname" placeholder="First name" name="first-name" />
               </div>
               <div className="col">
-                <input type="text" className="form-control" placeholder="Surname" name="surname" />
-              </div>
-           </div>
-           <div className="form-row mb-3">
-              <div className="col">
-                <input type="text" className="form-control" placeholder="email" name="email" />
+                <input type="text" className="form-control" data-testid="form-surame" placeholder="Surname" name="surname" />
               </div>
            </div>
            <div className="form-row mb-3">
               <div className="col">
-                <textarea className="form-control" rows="5" placeholder="Place your comment/question here"></textarea>
+                <input type="text" className="form-control" data-testid="form-email" placeholder="email" name="email" />
+              </div>
+           </div>
+           <div className="form-row mb-3">
+              <div className="col">
+                <textarea className="form-control" rows="5" data-testid="form-comment" placeholder="Place your comment/question here" name="comment"></textarea>
               </div>
            </div>
            <div className="form-row mb-3">

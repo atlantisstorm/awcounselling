@@ -27,7 +27,7 @@ const FamilyProgramme = ({ onClick }) => {
         <li>Guest speakers from 12 step recovery group</li>
         <li>Questions and answers</li>
       </ul>
-      <p>If you wish to find out when and where the next programme will be held or would like information on how to have me present the programme for your organisation, community or group then please contact me - click <a href="/" onClick={ onClick } data-name="contact">here</a> for contact details.</p>
+      <p>If you wish to find out when and where the next programme will be held or would like information on how to have me present the programme for your organisation, community or group then please contact me - click <a href="/" data-testid="family-programme--contact" onClick={ onClick } data-name="contact">here</a> for contact details.</p>
     </>
   );
 }

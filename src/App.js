@@ -9,7 +9,6 @@ const App = () => {
     event.preventDefault();
     setSelectedPage(event.target.getAttribute('data-name'));
   }
-
   return (
     <div className="container">
       <Navigation onClick={onClickSelectPage} selectedPage={selectedPage} />
@@ -20,7 +19,7 @@ const App = () => {
       </div>
       <div className="row">
         <div className="col-12">
-          <Page page={selectedPage} onClick={ onClickSelectPage} />
+          <Page onClick={ onClickSelectPage} page={selectedPage} />
         </div>
       </div>
     </div>

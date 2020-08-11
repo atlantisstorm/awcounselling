@@ -8,7 +8,7 @@ const ListItem = ({ menuOption, selectedPage, onClick }) => {
   }
 
   return (
-    <li className={ liClass }>
+    <li className={ liClass } data-testid={ `navigation-${menuOption.name}` }>
       <a className="nav-link" href="/" onClick={onClick} data-name={menuOption.name}>{ menuOption.text }</a>
     </li>
   );

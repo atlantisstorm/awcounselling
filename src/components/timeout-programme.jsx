@@ -22,7 +22,7 @@ const TimeoutProgramme = ({ onClick }) => {
         <li>Week 12. Self-Care and Change Plan</li>
       </ul>
 
-      <p>If you wish to find out when and where the next programme will be held or would like information on how to have me present the programme for your organisation, community or group then please contact me - click <a href="/" onClick={ onClick } data-name="contact">here</a> for contact details.</p>
+      <p>If you wish to find out when and where the next programme will be held or would like information on how to have me present the programme for your organisation, community or group then please contact me - click <a href="/" data-testid="timeout-programme--contact" onClick={ onClick } data-name="contact">here</a> for contact details.</p>
     </>
   );
 }

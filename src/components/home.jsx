@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
   return (
     <>
-      <p>My name is <span className="font-weight-bold">Aine Wilson</span>Wilson and I am an independent A.C. I. accredited counsellor based in Maguiresbridge, Co Fermanagh, offering professional and client centred help with:</p>
+      <p>My name is <span className="font-weight-bold">Aine Wilson</span> and I am an independent A.C. I. accredited counsellor based in Maguiresbridge, Co Fermanagh, offering professional and client centred help with:</p>
 
       <h5>Addictions</h5>
       <p>If you are concerned about your own use or abuse of Alcohol, Drugs or and Gambling or other process addictions and would like information on addictions or would like help and support to stop the cycle of destruction on your life.</p>

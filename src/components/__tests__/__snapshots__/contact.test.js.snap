@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact component should match snapshot 1`] = `
+<DocumentFragment>
+  <h5>
+    Contact
+  </h5>
+  <p>
+    To contact me, please either fill in the contact form, use my email address, or call me by telephone.  My practise hours are 9am - 5pm (Mon– Thurs), but I am also available during evenings and weekends to help ensure my services fit around your needs. I am also available to facilitate online counselling sessions via Skype or Zoom.
+  </p>
+  <div
+    class="row"
+  >
+    <div
+      class="col-lg-6"
+    >
+      <form
+        action=""
+        method=""
+      >
+        <div
+          class="form-row mb-3"
+        >
+          <div
+            class="col"
+          >
+            <input
+              class="form-control"
+              data-testid="form-firstname"
+              name="first-name"
+              placeholder="First name"
+              type="text"
+            />
+          </div>
+          <div
+            class="col"
+          >
+            <input
+              class="form-control"
+              data-testid="form-surame"
+              name="surname"
+              placeholder="Surname"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="form-row mb-3"
+        >
+          <div
+            class="col"
+          >
+            <input
+              class="form-control"
+              data-testid="form-email"
+              name="email"
+              placeholder="email"
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          class="form-row mb-3"
+        >
+          <div
+            class="col"
+          >
+            <textarea
+              class="form-control"
+              data-testid="form-comment"
+              name="comment"
+              placeholder="Place your comment/question here"
+              rows="5"
+            />
+          </div>
+        </div>
+        <div
+          class="form-row mb-3"
+        >
+          <div
+            class="col"
+          >
+            <button
+              class="btn btn-secondary"
+              type="button"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div
+      class="col-lg-6"
+    >
+      <h5>
+        Aine Wilson Counselling
+      </h5>
+      <p>
+        14 Park Hill
+        <br />
+        Tattinderry
+        <br />
+        Maguiresbridge
+        <br />
+        Co. Fermanagh
+        <br />
+        BT94 4AD
+      </p>
+      <p>
+        <span
+          class="font-weight-bold"
+        >
+          t.
+        </span>
+         028 6772 1046
+        <br />
+        <span
+          class="font-weight-bold"
+        >
+          m.
+        </span>
+         07792 304 731
+        <br />
+        <span
+          class="font-weight-bold"
+        >
+          m.
+        </span>
+         00353 (0) 863 086 381
+        <br />
+        <span
+          class="font-weight-bold"
+        >
+          e.
+        </span>
+         ainewilson12@hotmail.com
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;

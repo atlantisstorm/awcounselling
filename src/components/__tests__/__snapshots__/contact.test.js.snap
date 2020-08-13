@@ -27,7 +27,7 @@ exports[`Contact component should match snapshot 1`] = `
             <input
               class="form-control"
               data-testid="form-firstname"
-              name="first-name"
+              name="first_name"
               placeholder="First name"
               type="text"
             />
@@ -68,8 +68,8 @@ exports[`Contact component should match snapshot 1`] = `
             <textarea
               class="form-control"
               data-testid="form-comment"
-              name="comment"
-              placeholder="Place your comment/question here"
+              name="message"
+              placeholder="Place your message/question here"
               rows="5"
             />
           </div>
@@ -134,7 +134,12 @@ exports[`Contact component should match snapshot 1`] = `
         >
           e.
         </span>
-         ainewilson12@hotmail.com
+         
+        <a
+          href="mailto:ainewilson12@hotmail.com"
+        >
+          ainewilson12@hotmail.com
+        </a>
       </p>
     </div>
   </div>

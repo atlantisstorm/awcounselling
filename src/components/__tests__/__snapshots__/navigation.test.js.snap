@@ -13,7 +13,7 @@ exports[`Navigation component should match snapshot 1`] = `
     </a>
     <button
       class="navbar-toggler"
-      data-target="#navbarSupportContent"
+      data-target="#navbarPageLinks"
       data-toggle="collapse"
       type="button"
     >
@@ -23,7 +23,7 @@ exports[`Navigation component should match snapshot 1`] = `
     </button>
     <div
       class="collapse navbar-collapse"
-      id="navbarSupportContent"
+      id="navbarPageLinks"
     >
       <ul
         class="navbar-nav ml-auto"

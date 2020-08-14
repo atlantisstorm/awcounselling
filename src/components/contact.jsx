@@ -1,18 +1,5 @@
 import React, { useState } from 'react';
-const initState = {
-  first_name: "",
-  surname: "",
-  email: "",
-  message: "",
-  status: "",
-  statusTextStyle: ""
-};
-
-const statusMessages = {
-  sent: "Your message has been sent.",
-  sending: "Sending...",
-  error: "Please ensure all fields are filled in and that your email address is correct!"
-}
+import { sendEmail, initState } from '../utils';
 
 const Contact = () => {
   const [formState, setFormState] = useState(initState);
@@ -23,57 +10,15 @@ const Contact = () => {
       [event.target.name]: event.target.value, 
       status: ""
     };
-    console.log(`newFormState==`, newFormState);
     setFormState(newFormState);
   };
 
   const onClickSubmit = (event) => {
     event.preventDefault();
-    const firstName = formState.first_name;
-    const surname = formState.surname;
-    const email = formState.email;
-    const message = formState.message;
-    const emailRegex = /\S+@\S+\.\S+/;
-
-    if (firstName.length > 0 && surname.length > 0 && emailRegex.test(email) > 0 && message.length) {
-      const xhr = new XMLHttpRequest();
-      xhr.open("POST", "/conform", true);
-    
-      xhr.setRequestHeader("Content-type", "application/json");
-      xhr.onreadystatechange = function() {
-        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
-          setFormState({
-            ...formState, 
-            status: statusMessages.sent,
-            statusTextStyle: "success"
-           });
-        }
-      };
-
-      const data = {
-        name: `${firstName} ${surname}`,
-        email: email,
-        message: message
-      };
-
-      xhr.send(JSON.stringify(data));
-      setFormState({
-        ...formState, 
-        status: statusMessages.sending,
-        statusTextStyle: "warning"
-       });
-    }
-    else {
-      const newFormState = {
-        ...formState, 
-        status: statusMessages.error,
-        statusTextStyle: "danger"
-       };
-      setFormState(newFormState);      
-    }
+    sendEmail({ formState, setFormState });
   };
 
-  const statusTextStyle = `text-${formState.statusTextStyle}`;
+  const statusTextStyle = `text-${formState.statusTextStyle} pl-2`;
 
   return (
     <>
@@ -102,12 +47,17 @@ const Contact = () => {
            </div>
            <div className="form-row mb-3">
               <div className="col">
-                <button type="button" className="btn btn-secondary" onClick={ onClickSubmit } >Submit</button>
+                <button 
+                  type="button"
+                  className="btn btn-secondary"
+                  data-testid="submit-button"
+                  onClick={ onClickSubmit }
+                >Submit</button>
+                { formState.status &&
+                  <span className={ statusTextStyle }>{ formState.status }</span>
+                }
               </div>
            </div>
-           { formState.status &&
-             <div className="form-row mb-3"><p className={ statusTextStyle }>{ formState.status }</p></div>
-           }           
           </form>
         </div>
         <div className="col-lg-6">

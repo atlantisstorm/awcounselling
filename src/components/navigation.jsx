@@ -28,7 +28,7 @@ const menuOptions = [
   }
 ];
 
-const Navigation = ({ selectedPage, onClick }) => {
+const Navigation = ({ selectedPage, onClick, navButtonRef }) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" href="/">Aine Wilson Counselling</a>
@@ -36,10 +36,12 @@ const Navigation = ({ selectedPage, onClick }) => {
           className="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarSupportContent">
+          data-target="#navbarPageLinks"
+          ref={ navButtonRef }
+      >
         <span className="navbar-toggler-icon"></span>
-      </button>      
-      <div className="collapse navbar-collapse" id="navbarSupportContent">
+      </button>
+      <div className="collapse navbar-collapse" id="navbarPageLinks">
         <ul className="navbar-nav ml-auto">
           { menuOptions.map((menuOption, index) => (
             <ListItem key={index} menuOption={ menuOption } onClick={ onClick } selectedPage={ selectedPage } />

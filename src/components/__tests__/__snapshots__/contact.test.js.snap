@@ -82,6 +82,7 @@ exports[`Contact component should match snapshot 1`] = `
           >
             <button
               class="btn btn-secondary"
+              data-testid="submit-button"
               type="button"
             >
               Submit

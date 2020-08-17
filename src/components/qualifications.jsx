@@ -22,6 +22,12 @@ const Qualification = () => {
         <li>Understanding Eating Disorders</li>
         <li>Transgenerational transmission of trauma</li>
         <li>Critical Incident Debriefing</li>
+        <li>Trauma and the Body</li>
+        <li>Working with Suicide and Self-harm</li>
+        <li>DBT (Dialectical Behavioural Therapy)</li>
+        <li>Working with Nesting Dolls in Therapy</li>
+        <li>Domestic / Sexual abuse</li>
+        <li>Mindfulness Meditation</li>
       </ul>
     </>
   );

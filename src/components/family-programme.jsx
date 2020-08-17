@@ -5,7 +5,7 @@ const FamilyProgramme = ({ onClick }) => {
     <>
       <h5>One Day Family Programme</h5>
 
-      <p>I run a one-day education/family programme to help create awareness about addiction and its effects on the addicted person and their family.</p>
+      <p>I facilitate a one-day education/family programme to help create awareness about addiction and its effects on the addicted person and their family.</p>
 
       <p>Who is the programme aimed at? :</p>
       <ul>

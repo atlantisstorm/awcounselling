@@ -7,6 +7,7 @@ const Home = () => {
 
       <h5>Addictions</h5>
       <p>If you are concerned about your own use or abuse of Alcohol, Drugs or and Gambling or other process addictions and would like information on addictions or would like help and support to stop the cycle of destruction on your life.</p>
+      <p>If you are new to the 12-Step programme and would like help to understand how to apply these steps to your life. </p>
 
       <h5>Family Support</h5>
       <p>If you are living with or have lived with or are concerned with someone else's use or abuse of Alcohol, Drugs or and Gambling or other process addictions and would like information on steps you can take to help yourself and the addicted person.</p>
@@ -32,11 +33,15 @@ const Home = () => {
       <h5>Relationships</h5>
       <p>Relationships are complicated because people are complicated as we all have our own baggage coming into them.  Counselling can help us see our part in whatever relationship that is causing pain and can help explore options.</p>
 
-      <h5>Shame and Guilt </h5>
+      <h5>Shame and Guilt</h5>
       <p>Shame and Guilt are two moral powerful emotions that we are not born with.  They are emotions we experience along life’s journey.  They can have a major impact on how we live our lives and how we feel about ourselves.</p>
 
+      <h5>Anxiety Management</h5>
+      <p>When anxiety is severe or there all the time, it makes it hard to cope with daily life.  Anxiety can cause physical symptoms like pain, a pounding heart or stomach cramps.  Anxiety is when those feelings do not go away, they are extreme for the situation, and you cannot seem to control them.  It can also affect other areas of your life – like your ability to cope, perform at work and enjoy the things you used to enjoy.</p>
+
       <p className="text-center bg-light p-2">Aine Wilson Counselling ACC. A.C.I.<br />
-      <span className="font-weight-bold">t.</span> 028 6772 1046 - <span className="font-weight-bold">m.</span> 07792 304 731 - <span className="font-weight-bold">m.</span> 00353 (0) 863 086 381</p>
+      <span className="font-weight-bold">t.</span> 028 6772 1046 - <span className="font-weight-bold">m.</span> 07792 304 731 - <span className="font-weight-bold">m.</span> 00353 (0) 863 086 381<br />
+      I can also facilitate <span className="font-weight-bold">Zoom</span> and <span className="font-weight-bold">Skype</span> sessions</p>
     </>
   );
 }
